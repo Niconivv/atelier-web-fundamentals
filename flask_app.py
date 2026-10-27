@@ -78,7 +78,7 @@ def moi():
         langues=request.headers.get("Accept-Language"),
         entetes=request.headers,
     ),
- @app.get("/api/heure")
+@app.get("/api/heure")
 def api_heure():
     maintenant = datetime.now(ZoneInfo("Europe/Paris"))
     return jsonify({
