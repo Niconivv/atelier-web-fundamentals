@@ -90,15 +90,15 @@
 
 2. Combien de requêtes votre page `/presentation` a-t-elle déclenchées ? Lesquelles ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :normallement 2 mais la mienne en fait 3 car j'ai une image_ 
 
 3. Que signifie le code `200` ? Et le code `404` de la favicon ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :200 veut dire OK et 404 veut dire qu'il n'a pas trouvé la page_ 
 
 4. Pourquoi les modifications faites dans l'onglet Éléments ne sont-elles pas visibles par les autres visiteurs ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :car la modification est local car elle est seulement dans notre navigateur_ 
 
 ---
 
