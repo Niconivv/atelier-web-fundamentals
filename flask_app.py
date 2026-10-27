@@ -65,7 +65,7 @@ def secret():
 # Une page d'erreur 404 personnalisée
 @app.errorhandler(404)
 def page_introuvable(erreur):
-    return render_template("404.html"), 404
+    return render_template("404.html"),
 
 # ---------------------------------------------------------------
 #  Ne pas modifier : utile seulement pour lancer le site
