@@ -27,7 +27,7 @@ def accueil():
 @app.get("/presentation")
 def presentation():
     return "Je m'appelle Nicolas et je veux dormir."
-    @app.get("guh")
+    @app.get("/guh")
 def presentation():
     return "test"
 @app.get("/loisir")
