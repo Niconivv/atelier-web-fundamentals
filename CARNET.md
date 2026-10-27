@@ -106,15 +106,15 @@
 
 1. Dans l'URL `https://www.youtube.com/results?search_query=chat`, quel est le nom du paramètre ? Quelle est sa valeur ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :le nom du paramètre est search_query et la valeur est chat_ 
 
 2. Pourquoi le serveur plante-t-il avec `a=bonjour` ? Que faudrait-il faire pour l'éviter ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :bonjour plante car on request des int et bonjour sont des char, on pourrait l'évité en acceptant tout les type de variable mais cela causerait des problemes au niveau du résultat car il est fait pour additioner des int_ 
 
 3. Pourquoi est-il dangereux d'afficher **tel quel** ce que l'utilisateur envoie ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :car il peut insérer se qu'il veut dans la page_ 
 
 ---
 
@@ -122,15 +122,15 @@
 
 1. Quelle est la différence visible entre GET et POST ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :avec GET on peut voir les éléments dans l'URL, avec POST on peut pas_ 
 
 2. Pour un formulaire de **recherche**, quelle méthode choisiriez-vous ? Et pour un formulaire de **connexion avec mot de passe** ? Pourquoi ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :Pour recherche j'utiliserais GET car ce n'est pas grave si ces informations sont vu, pour connexion avec mot de passe j'utiliserait POST car ces informations ne doivent pas etre visible_ 
 
 3. Les données envoyées en POST sont-elles vraiment « secrètes » ? (Pensez à ce que vous avez vu dans l'onglet Réseau.)
 
-   > _Ma réponse :_ 
+   > _Ma réponse :non car elle ne sont pas chiffré automatiquement, il faut etre en https_ 
 
 ---
 
