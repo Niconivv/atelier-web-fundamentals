@@ -62,6 +62,9 @@ def home():
 @app.get("/secret")
 def secret():
     abort(403)
+@app.errorhandler(403)
+def erreur_403(erreur):
+    return render_template("403.html"), 403
 
 
 # Une page d'erreur 404 personnalisée
