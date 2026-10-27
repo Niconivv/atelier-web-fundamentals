@@ -86,7 +86,7 @@
 
 1. Que signifie HTTP ? Qui envoie la **requête** et qui envoie la **réponse** ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :HTTP veut dire HyperText Transfer Protocol, la requête est envoyer par le navigateur, la réponse est envoyer par le serveur_ 
 
 2. Combien de requêtes votre page `/presentation` a-t-elle déclenchées ? Lesquelles ?
 
