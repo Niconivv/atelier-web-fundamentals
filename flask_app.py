@@ -35,7 +35,7 @@ def presentation():
         <li>La musique</li>
         <li>Le code</li>
     </ul>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" width="100">
+    <img src="https://images.steamusercontent.com/ugc/37824255589810240/EECEE1C4709D6109ECDCCEA59370C8F7FDA0DF09/?imw=128&imh=128&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true" width="100">
     """
 @app.get("/loisir")
 def loisir():
