@@ -1,11 +1,10 @@
 # 📒 Mon carnet de bord
 
-**Nom :** 
+**Nom :Rabian** 
 
-**Prénom :** 
+**Prénom :Nicolas** 
 
-**Adresse de mon site :** https://______.pythonanywhere.com
-
+**Adresse de mon site :** https://NicolasRabian.pythonanywhere.com
 > Modifiez ce fichier directement sur GitHub (icône crayon ✏️) pour répondre aux questions de chaque exercice.
 > Écrivez avec vos propres mots : une réponse courte et juste vaut mieux qu'un long copier-coller ! 🙂
 
@@ -15,11 +14,11 @@
 
 1. Où se trouve physiquement le code qui fabrique votre page : sur votre ordinateur, sur GitHub ou sur PythonAnywhere ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :Le code est sur PythonAnywhere_ 
 
 2. Pourquoi votre voisin(e) peut-il voir votre site, alors que vous n'avez rien installé sur son ordinateur ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :Car la page est envoie sur internet depuis le serveur, elle n'est pas local_ 
 
 ---
 
@@ -27,15 +26,15 @@
 
 1. Dans l'URL `https://www.google.com/maps`, quel est le nom de domaine ? Quel est le chemin ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :google.com est le nom de domaine, maps est le chemin_ 
 
 2. Que veut dire le message *Not Found* ? Qui l'a envoyé : votre navigateur ou le serveur ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :le message not found veut dire que le chemin n'a pas été trouvé, il est envoyé par le serveur_ 
 
 3. Que se passe-t-il si deux fonctions portent le même nom dans `flask_app.py` ? (Indice : essayez, puis lisez l'Error log.)
 
-   > _Ma réponse :_ 
+   > _Ma réponse :une fonction va écrasé l'autre_ 
 
 ---
 
@@ -43,15 +42,15 @@
 
 1. Quelle est la différence entre ce que le serveur **envoie** et ce que le navigateur **affiche** ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :le serveur envoie le code en brut, le navigateur traduit le code brut en page internet_ 
 
 2. À quoi servent les balises `<h1>`, `<p>`, `<ul>` et `<li>` ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :h1 sert de titre, p pour les paragraphes, ul pour les listes et li pour chaque élément de la liste_ 
 
 3. Pourquoi l'image s'affiche-t-elle alors qu'elle n'est pas sur votre serveur ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :car le navigateur va cherché l'image qui est à l'adresse qu'on a mit dans img src_ 
 
 ---
 
@@ -59,11 +58,11 @@
 
 1. Pourquoi est-ce une bonne idée de séparer le code Python et le HTML ? (Pensez à une équipe avec un développeur et un graphiste.)
 
-   > _Ma réponse :_ 
+   > _Ma réponse :car ça aide à la visibilité et à la cohésion d'équipe_ 
 
 2. Les `{{ prenom }}` sont-ils remplacés par le serveur ou par le navigateur ? Comment l'avez-vous vérifié ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :ils sont remplacé par le serveur, j'ai vérifié en regardant dans le fichier, on appele prenom dans template et on le défini dans flask_app_py_ 
 
 ---
 
@@ -71,15 +70,15 @@
 
 1. Quelle est la différence de rôle entre le HTML et le CSS ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :html est le skelette de la page, css est l'esthétique de la page_ 
 
 2. Pour afficher votre page `/presentation`, combien de fichiers le navigateur doit-il télécharger ? (Vous pourrez le vérifier à l'exercice suivant !)
 
-   > _Ma réponse :_ 
+   > _Ma réponse :il doit en télécharger 2 normalement mais le mien en télécharge 3 car j'ai une image_ 
 
 3. Pourquoi faut-il parfois faire **Ctrl + F5** pour voir les changements de CSS ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :car sa force un hard reset de la page pour qu'elle ne prend pas en compte des caches locaux_ 
 
 ---
 
