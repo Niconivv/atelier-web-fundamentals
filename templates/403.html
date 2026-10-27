@@ -1,43 +1,13 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>403 - Accès interdit</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-    <style>
-        .erreur {
-            max-width: 480px;
-            margin: 80px auto;
-            text-align: center;
-            font-family: Arial, sans-serif;
-        }
-        .erreur h1 {
-            font-size: 5rem;
-            margin: 0;
-            color: #c0392b;
-        }
-        .erreur p {
-            font-size: 1.1rem;
-            color: #555;
-        }
-        .erreur a {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 10px 20px;
-            background: #2c3e50;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 6px;
-        }
-    </style>
+    <meta charset="utf-8">
+    <title>Page interdite</title>
+    <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
-    <main class="erreur">
-        <h1>403</h1>
-        <h2>Accès interdit</h2>
-        <p>Vous n'avez pas l'autorisation d'accéder à cette page.</p>
-        <a href="/">Retour à l'accueil</a>
-    </main>
+    <h1>Oups ! 🧭</h1>
+    <p>Cette page est interdite (erreur 403).</p>
+    <p><a href="/">Retour à l'accueil</a></p>
 </body>
 </html>
