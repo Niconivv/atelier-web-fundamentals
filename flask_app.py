@@ -28,6 +28,8 @@ def accueil():
 def presentation():
     return "Je m'appelle Nicolas et je veux dormir."
 @app.get("/loisir")
+def loisir():
+    return "Dormir"
 
 
 # ---------------------------------------------------------------
