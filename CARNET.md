@@ -138,15 +138,15 @@
 
 1. Quelle est la différence entre une erreur `4xx` et une erreur `5xx` ? Qui est « fautif » dans chaque cas ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :4xx indique un problême au niveau de la requete, 5xx indique un problême au niveau du serveur lui meme_ 
 
 2. Comment fonctionne une redirection ? Qui fait la deuxième requête : le serveur ou le navigateur ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :c'est le navigateur, il voit dans le code que /home est redirect vers / donc il demande au serveur de le renvoyer vers /_ 
 
 3. Donnez un exemple de situation où un vrai site utilise une redirection.
 
-   > _Ma réponse :_ 
+   > _Ma réponse :quand on essaye d'accedé a un site avec une protection capcha, d'abord on est renvoyer vers l'adresse du capcha puis si on l'a passé, on est renvoyer vers la page ou on souhaité allez de base_ 
 
 ---
 
